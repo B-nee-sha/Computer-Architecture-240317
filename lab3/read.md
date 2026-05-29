@@ -45,7 +45,7 @@ A **decoder** converts an **n-bit binary input** into one of \(2^n\) output line
 
 ## **Output**
 **Decoder Output**
-![Decoder Output](decoder_Output.png)
+![Decoder Output](decoderOutput.png)
 **Encoder Output**
 ![Encoder Output](EncoderOutput.png)
 ---
