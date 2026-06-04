@@ -27,12 +27,10 @@ DEMUX has 1 data input (D), 2 select lines (S1S0), and 4 outputs (Y0–Y3).
 ### 1 1 Y3 = D
 
 ## Output
-
-Mux
-![alt text](c:\Users\binisha\Pictures\Screenshots\MUX.png)
-
-Demux
-![alt text](lab4/DEMUX.png)
+MUX
+![MUX](MUX.png)
+DEMUX
+![DEMUX](DEMUX.png)
 
 ## Discussion and conclusion
 
