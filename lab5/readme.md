@@ -21,23 +21,23 @@ For a 2-bit comparator with inputs A = A1A0 and B = B1B0:
 ---
 
 ## Output
-![Output](output.png)
+![Output](./output.png)
 
 ---
 
 ## Simulation Commands
 Run the following commands in your terminal to compile and simulate:
 
-# 1. Analyze (compile) the design and testbench
+## 1. Analyze (compile) the design and testbench
 ghdl -a comparator_2bit.vhd comparator_tb.vhd
 
-# 2. Elaborate the testbench
+## 2. Elaborate the testbench
 ghdl -e COMPARATOR_TB
 
-# 3. Simulate and generate the waveform file
+## 3. Simulate and generate the waveform file
 ghdl -r COMPARATOR_TB --vcd=comparator.vcd
 
-# 4. Open the waveform in GTKWave
+## 4. Open the waveform in GTKWave
 gtkwave comparator.vcd
 
 ## Discussion
@@ -57,3 +57,5 @@ We learned how to:
 - Verify outputs using waveform visualization.  
 
 The experiment reinforced the importance of **combinational logic** in digital design and showed how comparators are fundamental building blocks in processors and control systems.
+
+[def]: ./
