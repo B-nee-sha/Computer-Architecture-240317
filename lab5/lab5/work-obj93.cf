@@ -1,0 +1,13 @@
+v 4
+file . "comparator_2bit_2.vhd" "4a4607571d8b16b1e0d98f8e7152c79aff0c3e6a" "20260710103824.538":
+  entity comparator_2bit_2 at 1( 0) + 0 on 43;
+  architecture behavioral of comparator_2bit_2 at 14( 326) + 0 on 44;
+file . "COMPARATOR_2BIT.vhd" "a6036e6ccd0a8c96c23bfda47a73e5133ea4d039" "20260609082155.320":
+  entity comparator_2bit at 1( 0) + 0 on 27;
+  architecture behavioral of comparator_2bit at 13( 322) + 0 on 28;
+file . "comparator_tb.vhd" "0da8ffcabca65f40fd2957238777bc7136f45390" "20260609082204.786":
+  entity comparator_tb at 1( 0) + 0 on 29;
+  architecture simulation of comparator_tb at 5( 103) + 0 on 30;
+file . "comparator_2bit_2_tb.vhd" "69534ad49cb00d874adf4cf14ea75933088d82b2" "20260710103824.609":
+  entity comparator_2bit_2_tb at 1( 0) + 0 on 45;
+  architecture simulation of comparator_2bit_2_tb at 8( 142) + 0 on 46;
